@@ -24,13 +24,13 @@ body{
 
 
 .main{
-    padding: 40px 25px 40px 25px;
+    padding: 30px 25px 30px 25px;
     background-color: var(--Grey800);
     align-items: center;
     text-align: center;
     border-radius: 15px;
     box-sizing: border-box;
-    width: 400px;
+    /* width: 400px; */
 }
 
 .profile{
@@ -83,6 +83,7 @@ li {
     width: 90%;
     border-radius: 7px;
     font-size: 12px;
+    font-weight: 500;
 }
 
 li:hover{
