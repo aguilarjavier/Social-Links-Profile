@@ -1,0 +1,97 @@
+
+@font-face {
+    font-family: font;
+    src: url(assets/fonts/Inter-VariableFont_slnt\_wght.ttf)
+}
+
+
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --Grey700: hsl(0, 0%, 20%);
+    --Grey800: hsl(0, 0%, 12%);
+    --Grey900: hsl(0, 0%, 8%);
+}
+
+body{
+    background-color: var(--Grey900);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: font;
+}
+
+
+.main{
+    padding: 40px 25px 40px 25px;
+    background-color: var(--Grey800);
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    box-sizing: border-box;
+    width: 400px;
+}
+
+.profile{
+    border-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+img{
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+h1{
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 12px;
+    color: var(--Green);
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+}
+
+h3{
+    font-size: 12px;
+    font-weight: 200;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    align-content: center;
+}
+
+li {
+    display: inline-block;
+    height: 40px;
+    margin: 7px 0 7px 0;
+    padding: 3px;
+    list-style-type: none;
+    background-color: var(--Grey700);
+    text-align: center;
+    align-content: center;
+    width: 90%;
+    border-radius: 7px;
+    font-size: 12px;
+}
+
+li:hover{
+    background-color: var(--Green);
+    color: var(--Grey900);
+    cursor: pointer;
+}
+
+
+.attribution{
+    display: none;
+}
